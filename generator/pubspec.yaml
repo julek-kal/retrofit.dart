@@ -9,7 +9,10 @@ environment:
   sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
-  dio: ^3.0.1
+  dio: 
+    git:
+      url: git://github.com/julek-kal/dio.git
+      path: dio
   source_gen: ^0.9.4+2
   built_collection: ^4.2.0
   code_builder: ^3.2.0
